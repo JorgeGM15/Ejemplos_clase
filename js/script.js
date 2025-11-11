@@ -1,6 +1,3 @@
-const x = 10;
-console.log(x);
-
 // Iteraciones
 const cielo = document.getElementById("cielo");
 
