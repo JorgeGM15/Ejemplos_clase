@@ -34,7 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: chartreuse;
+    background-color: rgb(165, 67, 67);
     gap:1rem;
 }
 .card{
@@ -51,4 +51,34 @@
 .card p{
     color: #fff;
     background-color: black;
+}
+/*carrito */
+#carritoLista{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgb(9, 0, 77);
+    background-color: gray;
+    color: azure;
+}
+
+/* concurrencia*/
+pre{
+    text-align: left;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+    color: orange;
+}
+
+/* try catch */
+#bodyTry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mensaje{
+    font-weight: bold;
+    color: red;
 }

@@ -1,9 +1,12 @@
 //componente mejorado
 
 const productos = [
-    {nombre:"taza", precio:50, img:"https://m.media-amazon.com/images/I/61-gPGG7umL.jpg"},
-    {nombre:"playera", precio:2500, img:"https://dpjye2wk9gi5z.cloudfront.net/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/3021008-0303V1.jpg"}
-    
+    {nombre:"gorra", precio: 2000, img:"https://formulaentreamigos.com/wp-content/uploads/2025/02/701233006001_PP_1_FERRARI_026280_01-scaled.jpg"},
+    {nombre:"playera", precio: 2500, img:"https://formulaentreamigos.com/wp-content/uploads/2025/02/5.png"},
+    {nombre:"gorra", precio: 2000, img:"https://formulaentreamigos.com/wp-content/uploads/2025/02/701233006001_PP_1_FERRARI_026280_01-scaled.jpg"},
+    {nombre:"playera", precio: 2500, img:"https://formulaentreamigos.com/wp-content/uploads/2025/02/5.png"},
+    {nombre:"gorra", precio: 2000, img:"https://formulaentreamigos.com/wp-content/uploads/2025/02/701233006001_PP_1_FERRARI_026280_01-scaled.jpg"},
+    {nombre:"playera", precio: 2500, img:"https://formulaentreamigos.com/wp-content/uploads/2025/02/5.png"},
 ];
 
 const contenedor = document.getElementById("contenedor");
@@ -15,8 +18,8 @@ productos.forEach( prod =>{
     card.innerHTML = `
         <img src="${prod.img}" alt="${prod.nombre}">
         <h3>${prod.nombre}</h3>
-        <p>${prod.precio}</p>
-        <button>Agregar</button>"
+        <p>$${prod.precio}</p>
+        <button>Agregar</button>
     `;
 
     contenedor.appendChild(card);
